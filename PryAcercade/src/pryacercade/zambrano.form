@@ -334,7 +334,7 @@
           <Font name="Rockwell Extra Bold" size="16" style="0"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\jhony\Documents\FUNDAMENTOS\menu.jpg"/>
+          <Image iconType="3" name="/fotos/menu.jpg"/>
         </Property>
       </Properties>
       <Events>

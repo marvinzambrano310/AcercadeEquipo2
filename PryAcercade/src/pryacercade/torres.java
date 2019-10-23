@@ -130,7 +130,7 @@ public class torres extends javax.swing.JFrame {
 
         BtnAnteriorT.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         BtnAnteriorT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_8.png"))); // NOI18N
-        BtnAnteriorT.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.blue, null, null));
+        BtnAnteriorT.setBorder(new javax.swing.border.SoftBevelBorder(0, null, java.awt.Color.blue, null, null));
         BtnAnteriorT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnAnteriorTActionPerformed(evt);
@@ -140,7 +140,7 @@ public class torres extends javax.swing.JFrame {
 
         BtnSiguienteT.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         BtnSiguienteT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_9.png"))); // NOI18N
-        BtnSiguienteT.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.blue, null, null));
+        BtnSiguienteT.setBorder(new javax.swing.border.SoftBevelBorder(0, null, java.awt.Color.blue, null, null));
         BtnSiguienteT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnSiguienteTActionPerformed(evt);
@@ -151,7 +151,7 @@ public class torres extends javax.swing.JFrame {
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/torres1.png"))); // NOI18N
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 230, 260));
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\Screenshot_10.png")); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_10.png"))); // NOI18N
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 400));
 
         pack();

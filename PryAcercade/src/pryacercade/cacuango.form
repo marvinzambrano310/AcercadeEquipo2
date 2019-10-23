@@ -217,7 +217,7 @@
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\jhony\Documents\FUNDAMENTOS\Screenshot_9.png"/>
+          <Image iconType="3" name="/fotos/Screenshot_9.png"/>
         </Property>
       </Properties>
       <Events>
@@ -244,7 +244,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="30" y="110" width="200" height="-1"/>
+          <AbsoluteConstraints x="30" y="110" width="200" height="250"/>
         </Constraint>
       </Constraints>
 
@@ -253,7 +253,7 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/pryacercade/Screenshot_1.png"/>
+              <Image iconType="3" name="/fotos/Screenshot_1.png"/>
             </Property>
           </Properties>
         </Component>
@@ -386,7 +386,7 @@
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\jhony\Documents\FUNDAMENTOS\Screenshot_8.png"/>
+          <Image iconType="3" name="/fotos/Screenshot_8.png"/>
         </Property>
       </Properties>
       <Events>
@@ -401,9 +401,8 @@
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\jhony\Documents\FUNDAMENTOS\Screenshot_6.png"/>
+          <Image iconType="3" name="/fotos/Screenshot_6.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel7"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">

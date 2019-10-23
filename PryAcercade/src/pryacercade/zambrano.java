@@ -157,7 +157,7 @@ public class zambrano extends javax.swing.JFrame {
         getContentPane().add(BtnAnt, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 350, 180, 70));
 
         BtnSig.setFont(new java.awt.Font("Rockwell Extra Bold", 0, 16)); // NOI18N
-        BtnSig.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\menu.jpg")); // NOI18N
+        BtnSig.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/menu.jpg"))); // NOI18N
         BtnSig.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnSigActionPerformed(evt);
