@@ -21,6 +21,7 @@ public class cacuango extends javax.swing.JFrame {
      */
     public cacuango() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -55,6 +56,7 @@ public class cacuango extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jPanel11 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -109,14 +111,13 @@ public class cacuango extends javax.swing.JFrame {
 
         getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 220, 220, 30));
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_4.png"))); // NOI18N
-        jButton1.setText("jButton1");
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\Screenshot_9.png")); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 360, 170, 40));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 350, 180, 60));
 
         jPanel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
 
@@ -157,6 +158,14 @@ public class cacuango extends javax.swing.JFrame {
 
         getContentPane().add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 270, 230, 30));
 
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\Screenshot_8.png")); // NOI18N
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, 180, 60));
+
         jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\Screenshot_6.png")); // NOI18N
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 510));
@@ -186,6 +195,14 @@ public class cacuango extends javax.swing.JFrame {
         ven . setVisible ( true );
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        
+        Menu ven = new Menu();
+        ven . setVisible ( true );
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -224,6 +241,7 @@ public class cacuango extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel12;

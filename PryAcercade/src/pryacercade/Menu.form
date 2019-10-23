@@ -333,7 +333,7 @@
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\jhony\Documents\FUNDAMENTOS\Screenshot_4.png"/>
+          <Image iconType="3" name="/fotos/Screenshot_9.png"/>
         </Property>
       </Properties>
       <Events>
@@ -341,7 +341,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="540" y="350" width="-1" height="-1"/>
+          <AbsoluteConstraints x="567" y="350" width="180" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>

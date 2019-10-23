@@ -16,6 +16,7 @@ public class pumisacho extends javax.swing.JFrame {
      */
     public pumisacho() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

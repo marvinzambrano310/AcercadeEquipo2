@@ -16,6 +16,7 @@ public class Menu extends javax.swing.JFrame {
      */
     public Menu() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -139,13 +140,13 @@ public class Menu extends javax.swing.JFrame {
 
         getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 200, 150, -1));
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\Screenshot_4.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_9.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 350, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(567, 350, 180, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\Screenshot_5.png")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
