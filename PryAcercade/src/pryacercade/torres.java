@@ -149,10 +149,10 @@ public class torres extends javax.swing.JFrame {
         getContentPane().add(BtnSiguienteT, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 320, 190, 70));
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/torres1.png"))); // NOI18N
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 280, 260));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 230, 260));
 
         jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\Screenshot_10.png")); // NOI18N
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 410));
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 400));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
