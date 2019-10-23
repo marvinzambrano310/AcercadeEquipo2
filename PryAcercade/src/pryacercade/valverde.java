@@ -201,9 +201,9 @@ public class valverde extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BtnAntActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAntActionPerformed
-        /*torres ven= new torres();
-        torres.setvisible(true);
-        this.setVisible(false);*/
+        torres ven= new torres();
+        ven.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_BtnAntActionPerformed
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
@@ -213,7 +213,7 @@ public class valverde extends javax.swing.JFrame {
 
     private void BtnSigActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnSigActionPerformed
         /*zambrano ven = new zambrano();
-        zambrano.setvisible(true);
+        ven.setvisible(true);
         this.setVisible(false);*/
     }//GEN-LAST:event_BtnSigActionPerformed
 
