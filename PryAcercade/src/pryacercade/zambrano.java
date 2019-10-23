@@ -33,7 +33,6 @@ public class zambrano extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -50,9 +49,10 @@ public class zambrano extends javax.swing.JFrame {
         BtnSig = new javax.swing.JButton();
         jLabel13 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -62,13 +62,6 @@ public class zambrano extends javax.swing.JFrame {
         jLabel1.setText("  Perfil Marvin Zambrano");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 11, 250, -1));
-
-        jLabel10.setBackground(new java.awt.Color(102, 102, 255));
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Zambrano.jpg"))); // NOI18N
-        jLabel10.setToolTipText("");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 200, 220));
 
         jLabel2.setFont(new java.awt.Font("Rockwell Extra Bold", 0, 16)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -164,19 +157,19 @@ public class zambrano extends javax.swing.JFrame {
         getContentPane().add(BtnAnt, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 350, 180, 70));
 
         BtnSig.setFont(new java.awt.Font("Rockwell Extra Bold", 0, 16)); // NOI18N
-        BtnSig.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_9.png"))); // NOI18N
+        BtnSig.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\menu.jpg")); // NOI18N
         BtnSig.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnSigActionPerformed(evt);
             }
         });
-        getContentPane().add(BtnSig, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 350, 190, 70));
+        getContentPane().add(BtnSig, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 340, 80, 90));
 
         jLabel13.setFont(new java.awt.Font("Rockwell Extra Bold", 0, 16)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Foto:");
         jLabel13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 69, 95, -1));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 95, -1));
 
         jLabel17.setFont(new java.awt.Font("Rockwell Extra Bold", 0, 16)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
@@ -184,11 +177,6 @@ public class zambrano extends javax.swing.JFrame {
         jLabel17.setText("Fecha de Nacimiento:");
         jLabel17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, -1, 20));
-
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_11.png"))); // NOI18N
-        jLabel5.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 450));
 
         jLabel19.setFont(new java.awt.Font("Rockwell Extra Bold", 0, 16)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
@@ -203,6 +191,14 @@ public class zambrano extends javax.swing.JFrame {
         jLabel20.setText("Emelec");
         jLabel20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(551, 209, 107, -1));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Zambrano.jpg"))); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 170, 240));
+
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_11.png"))); // NOI18N
+        jLabel5.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 450));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

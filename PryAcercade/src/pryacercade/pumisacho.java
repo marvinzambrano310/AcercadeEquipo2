@@ -59,8 +59,8 @@ public class pumisacho extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
+        jLabel16 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -116,6 +116,7 @@ public class pumisacho extends javax.swing.JFrame {
 
         getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 220, 220, 30));
 
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_9.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -167,16 +168,19 @@ public class pumisacho extends javax.swing.JFrame {
 
         getContentPane().add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 270, 230, 30));
 
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_8.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, 180, 60));
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 790, 510));
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Perfil_BP.png"))); // NOI18N
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, -1));
+        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhony\\Documents\\FUNDAMENTOS\\Screenshot_13.png")); // NOI18N
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, 180, 240));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/Screenshot_11.png"))); // NOI18N
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 500));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -258,7 +262,7 @@ public class pumisacho extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
