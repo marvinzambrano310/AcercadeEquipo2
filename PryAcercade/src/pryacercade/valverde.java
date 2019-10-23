@@ -212,9 +212,9 @@ public class valverde extends javax.swing.JFrame {
     }//GEN-LAST:event_formWindowActivated
 
     private void BtnSigActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnSigActionPerformed
-        /*zambrano ven = new zambrano();
-        ven.setvisible(true);
-        this.setVisible(false);*/
+        zambrano ven = new zambrano();
+        ven.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_BtnSigActionPerformed
 
     /**
