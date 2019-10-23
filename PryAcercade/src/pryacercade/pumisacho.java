@@ -181,7 +181,7 @@ public class pumisacho extends javax.swing.JFrame {
     
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here: 
-        pumisacho ven = new pumisacho();
+        rios ven = new rios();
         
         ven . setVisible ( true );
         this.dispose();
@@ -190,7 +190,7 @@ public class pumisacho extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         
-        Menu ven = new Menu();
+        cacuango ven = new cacuango();
         ven . setVisible ( true );
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
